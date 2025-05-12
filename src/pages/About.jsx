@@ -48,7 +48,7 @@ const About = () => (
               <p>Conestoga College, Kitchener, Ontario – <span className="text-sm">2025</span></p>
               <div className="flex items-center gap-2 mt-1">
                 <Star className="h-4 w-4 text-yellow-500" />
-                <span className="text-sm">GPA: 3.66 / 4.00</span>
+                <span className="text-sm">GPA: 3.73 / 4.00</span>
               </div>
             </div>
           </div>
