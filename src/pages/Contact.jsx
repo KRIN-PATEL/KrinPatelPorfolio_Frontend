@@ -152,14 +152,14 @@ const Contact = () => {
               onChange={handleChange}
               className="w-full p-3 rounded border bg-background text-foreground placeholder:text-muted-foreground"
             />
-            <input
+            {/* <input
               type="text"
               name="phone"
               placeholder="Phone Number"
               value={formData.phone}
               onChange={handleChange}
               className="w-full p-3 rounded border bg-background text-foreground placeholder:text-muted-foreground"
-            />
+            /> */}
             <textarea
               name="message"
               required
