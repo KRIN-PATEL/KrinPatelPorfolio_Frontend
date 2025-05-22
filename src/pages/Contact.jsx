@@ -75,14 +75,14 @@ const Contact = () => {
               onChange={handleChange}
               className="w-full p-3 rounded border bg-background text-foreground placeholder:text-muted-foreground"
             />
-            {/* <input
+            <input
               type="text"
               name="phone"
               placeholder="Phone Number"
               value={formData.phone}
               onChange={handleChange}
               className="w-full p-3 rounded border bg-background text-foreground placeholder:text-muted-foreground"
-            /> */}
+            />
             <textarea
               name="message"
               required
@@ -122,10 +122,10 @@ const Contact = () => {
                 krinpatel.it@gmail.com
               </a>
             </li>
-            <li className="flex items-center gap-3">
+            {/* <li className="flex items-center gap-3">
               <Phone className="w-5 h-5" />
               <span className="text-primary">647-355-7479</span>
-            </li>
+            </li> */}
             <li className="flex items-center gap-3">
               <Linkedin className="w-5 h-5" />
               <a
