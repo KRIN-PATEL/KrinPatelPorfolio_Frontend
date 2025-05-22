@@ -9,11 +9,11 @@ import Certificates from "./pages/Certificates";
 import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
 
-import { Toaster } from "react-hot-toast"; // ✅ import toaster
+import { Toaster } from "react-hot-toast";
 
 const App = () => (
   <main className="bg-background text-foreground">
-    <Toaster position="top-right" reverseOrder={false} /> {/* ✅ enable toasts */}
+    <Toaster position="top-right" reverseOrder={false} />
 
     <Navbar />
     <Hero />

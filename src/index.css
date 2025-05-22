@@ -2,12 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
 html {
   scroll-behavior: smooth;
 }
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
   width: 100%;
@@ -16,7 +15,6 @@ html, body {
 html {
   color-scheme: dark light;
 }
-
 
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -87,8 +85,6 @@ button:focus-visible {
   }
 }
 
-
-
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -144,8 +140,6 @@ button:focus-visible {
     --chart-5: 340 75% 55%;
   }
 }
-
-
 
 @layer base {
   * {

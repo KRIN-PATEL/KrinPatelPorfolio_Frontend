@@ -1,6 +1,6 @@
-import { GraduationCap, Star } from "lucide-react"
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { motion } from "framer-motion"
+import { GraduationCap, Star } from "lucide-react";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { motion } from "framer-motion";
 
 const About = () => (
   <section id="about" className="px-6 py-16 max-w-5xl mx-auto">
@@ -17,10 +17,12 @@ const About = () => (
         </CardHeader>
         <CardContent>
           <p className="text-muted-foreground leading-relaxed">
-            I’m a passionate Full-Stack Developer with experience designing scalable, user-friendly
-            web applications. I'm skilled in <strong>React.js, Node.js, PHP, and Python</strong>, with hands-on
-            experience in <strong>REST APIs</strong>, <strong>MySQL</strong>, and AI-driven features. I enjoy solving complex problems
-            and delivering intuitive and high-performance applications.
+            I’m a passionate Full-Stack Developer with experience designing
+            scalable, user-friendly web applications. I'm skilled in{" "}
+            <strong>React.js, Node.js, PHP, and Python</strong>, with hands-on
+            experience in <strong>REST APIs</strong>, <strong>MySQL</strong>,
+            and AI-driven features. I enjoy solving complex problems and
+            delivering intuitive and high-performance applications.
           </p>
         </CardContent>
       </Card>
@@ -44,8 +46,13 @@ const About = () => (
           <div className="flex items-start gap-3 hover:bg-muted/40 hover:ring hover:ring-primary hover:scale-[1.01] transition-all p-3 rounded-lg">
             <GraduationCap className="h-5 w-5 text-primary mt-1" />
             <div>
-              <p className="font-medium text-foreground">Post-Graduate Certificate in Web Development</p>
-              <p>Conestoga College, Kitchener, Ontario – <span className="text-sm">2025</span></p>
+              <p className="font-medium text-foreground">
+                Post-Graduate Certificate in Web Development
+              </p>
+              <p>
+                Conestoga College, Kitchener, Ontario –{" "}
+                <span className="text-sm">2025</span>
+              </p>
               <div className="flex items-center gap-2 mt-1">
                 <Star className="h-4 w-4 text-yellow-500" />
                 <span className="text-sm">GPA: 3.73 / 4.00</span>
@@ -56,8 +63,13 @@ const About = () => (
           <div className="flex items-start gap-3 hover:bg-muted/40 hover:ring hover:ring-primary hover:scale-[1.01] transition-all p-3 rounded-lg">
             <GraduationCap className="h-5 w-5 text-primary mt-1" />
             <div>
-              <p className="font-medium text-foreground">Bachelor’s of Engineering in Information Technology  (BE-IT)</p>
-              <p>Gujarat University, India – <span className="text-sm">2022</span></p>
+              <p className="font-medium text-foreground">
+                Bachelor’s of Engineering in Information Technology (BE-IT)
+              </p>
+              <p>
+                Gujarat University, India –{" "}
+                <span className="text-sm">2022</span>
+              </p>
               <div className="flex items-center gap-2 mt-1">
                 <Star className="h-4 w-4 text-yellow-500" />
                 <span className="text-sm">CGPA: 8.70 / 10</span>
@@ -68,6 +80,6 @@ const About = () => (
       </Card>
     </motion.div>
   </section>
-)
+);
 
-export default About
+export default About;

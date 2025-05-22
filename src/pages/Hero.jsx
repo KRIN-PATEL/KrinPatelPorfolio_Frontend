@@ -1,7 +1,7 @@
-import { motion } from "framer-motion"
-import { Button } from "@/components/ui/button"
-import { Download } from "lucide-react"
-import { Typewriter } from "react-simple-typewriter"
+import { motion } from "framer-motion";
+import { Button } from "@/components/ui/button";
+import { Download } from "lucide-react";
+import { Typewriter } from "react-simple-typewriter";
 
 const Hero = () => {
   return (
@@ -68,7 +68,7 @@ const Hero = () => {
         />
       </motion.div>
     </section>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;
