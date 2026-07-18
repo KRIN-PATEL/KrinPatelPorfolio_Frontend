@@ -20,6 +20,7 @@ const experienceData = [
       "Communicate department updates, operational concerns, and action plans during daily leadership meetings.",
       "Maintain eCommerce staging, back-office organization, safety, and food quality standards.",
       "Support cross-functional store operations and contribute to continuous process improvements across departments.",
+      "Support cross-functional store operations and contribute to continuous process improvements across departments.",
     ],
   },
   {
