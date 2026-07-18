@@ -4,6 +4,25 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const experienceData = [
   {
+    company: "Walmart Canada",
+    role: "E-Commerce Operations Manager",
+    duration: "Jan 2026 – Present",
+    location: "Woodstock, Ontario, Canada",
+    logo: "/logos/Walmart.webp",
+    points: [
+      "Lead daily OMNI operations including online grocery picking, staging, dispensing, and customer service while ensuring operational excellence.",
+      "Support workload planning based on order volume, customer traffic, staffing levels, and business priorities.",
+      "Coach and develop associates on FTPR, picking accuracy, substitutions, workflow efficiency, and customer service standards.",
+      "Monitor key OMNI KPIs including FTPR, Pre-Sub, Post-Sub, OTPR, DWT, and NPS to identify opportunities and improve department performance.",
+      "Review availability reports and nil picks to improve inventory accuracy, customer satisfaction, and sales.",
+      "Use Dispatcher, Ozark, and BORIS to manage order tracking, delivery updates, refunds, and customer support.",
+      "Partner with Assistant Managers during operational walks, tote audits, and daily department reviews.",
+      "Communicate department updates, operational concerns, and action plans during daily leadership meetings.",
+      "Maintain eCommerce staging, back-office organization, safety, and food quality standards.",
+      "Support cross-functional store operations and contribute to continuous process improvements across departments.",
+    ],
+  },
+  {
     company: "BrainyBeam Technologies Pvt. Ltd.",
     role: "Web Development Intern",
     duration: "June 2023 – August 2023 · 3 mos",
