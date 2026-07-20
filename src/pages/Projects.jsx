@@ -688,8 +688,7 @@ font-medium
 mb-5
 "
           >
-            <Code2 className="w-4 h-4" />
-            Portfolio
+            
           </div>
 
           <h2
